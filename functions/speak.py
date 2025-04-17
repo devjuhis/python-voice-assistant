@@ -10,3 +10,6 @@ for voice in voices:
 def speak(text):
     engine.say(text)
     engine.runAndWait()
+
+def stop_speaking():
+    engine.stop()

@@ -18,5 +18,4 @@ def toggle_listening():
 def hotkey_listener():
     while True:
         keyboard.wait("ctrl+alt+r")
-        print("hotkey pressed")
         toggle_listening()
